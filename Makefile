@@ -11,9 +11,9 @@ OPT=-O3 -ffast-math
 OPT=-O1 -pg
 
 # Faster compilation time
-OPT=-O1
+OPT=-O3 -ffast-math -pg
 
-CXXFLAGS := $(OPT) -Wall -march=native -g -std=c++17
+CXXFLAGS := $(OPT) -pg -Wall -march=native -g -std=c++17
 
 default: seq vec
 
@@ -23,5 +23,20 @@ seq: Water_sequential.cpp
 vec: Water_vectorised.cpp
 	$(CXX) Water_vectorised.cpp $(CXXFLAGS) -fopenmp-simd -o vec
 
+profiler_vec: vec 
+	./vec
+	gprof -p -b ./vec gmon.out > vec_analysis.txt
+
+profiler_seq: seq
+	./seq
+	gprof -p -b ./seq gmon.out > seq_analysis.txt
+
+exercise2: vec seq
+	for i in 10 100 1000 10000; do \
+		./vec -no_mol $$i; \
+		gprof -p -b ./vec gmon.out > vec_analysis_$$i.txt; \
+		./seq -no_mol $$i; \
+		gprof -p -b ./seq gmon.out > seq_analysis_$$i.txt; \
+	done
 clean:
 	rm -fr seq vec
