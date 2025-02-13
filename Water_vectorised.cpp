@@ -224,7 +224,7 @@ void BuildNeighborList(System &sys)
     {                                        // For each molecule, build the neighbour list
         sys.molecules.neighbours[i].clear(); // empty neighbour list of molecule i
 
-        for (size_t j = 0; j < sys.molecules.size(); j++)
+        for (size_t j{}; j < sys.molecules.size(); j++)
         {
             Vec3 dp = sys.molecules.atoms[0].p[i] - sys.molecules.atoms[0].p[j];
             distances2[j] = dp.mag2();
@@ -248,7 +248,7 @@ void BuildNeighborList(System &sys)
         );
 
         // Test if index already exists in the neighbour list of other molecule and if not insert it in neighbour list of molecule i
-        for (size_t j = 0; j < target_num; j++)
+        for (size_t j{}; j < target_num; j++)
         {
             auto &k = index[j]; // k: molecule nr of the jth closest molecule to molecule i
             if (k < i)
@@ -335,7 +335,6 @@ void UpdateNonBondedForces(System &sys)
        The total non-bonded forces come from Lennard Jones (LJ) and coulomb interactions
        U = ep[(sigma/r)^12-(sigma/r)^6] + C*q1*q2/r */
     for (size_t i{}; i < sys.molecules.size(); i++)
-        // for (size_t j = i+1; j < sys.molecules.size(); j++)
         for (auto &j :sys.molecules.neighbours[i]) // iterate over all neighbours of molecule i
             for (auto &atom1 : sys.molecules.atoms) // to check 
                 for (auto &atom2 : sys.molecules.atoms) // to check 

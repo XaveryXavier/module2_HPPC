@@ -33,10 +33,11 @@ profiler_seq: seq
 
 exercise2: vec seq
 	for i in 10 100 1000 10000; do \
-		./vec -no_mol $$i; \
-		gprof -p -b ./vec gmon.out > vec_analysis_$$i.txt; \
-		./seq -no_mol $$i; \
-		gprof -p -b ./seq gmon.out > seq_analysis_$$i.txt; \
+		echo "Running for $$i"; \
+		./vec -no_mol $$i > data/vec_results$$i.txt; \
+		gprof -p -b ./vec gmon.out > data/vec_analysis_$$i.txt; \
+		./seq -no_mol $$i > data/seq_results$$i.txt; \
+		gprof -p -b ./seq gmon.out > data/seq_analysis_$$i.txt; \
 	done
 clean:
 	rm -fr seq vec
