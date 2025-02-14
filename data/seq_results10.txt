@@ -1,4 +1,4 @@
 Accumulated forces Bonds   : 3.1092e+07
 Accumulated forces Angles  : 1.9007e+07
 Accumulated forces Non-bond: 2.9796e+08
-Elapsed total time:          0.1040
+Elapsed total time:          0.1022

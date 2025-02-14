@@ -88,7 +88,6 @@ double dot(const Vec3 &a, const Vec3 &b)
     return a.x * b.x + a.y * b.y + a.z * b.z;
 }
 
-
 /* class for the covalent bond between two atoms U=0.5k(r12-L0)^2 */
 class Bond
 {
@@ -106,7 +105,6 @@ public:
     double Phi0;
     size_t a1, a2, a3; // the indexes of the three atoms, with a2 being the centre atom
 };
-
 
 // ===============================================================================
 // Two new classes arranging Atoms in a Structure-of-Array data structure
@@ -272,15 +270,15 @@ void UpdateBondForces(System &sys)
     for (auto &bond : molecule.bonds)
         for (size_t i{}; i < molecule.no_mol; i++)
         {
-                    auto &atom1 = molecule.atoms[bond.a1];
-                    auto &atom2 = molecule.atoms[bond.a2];
-                    Vec3 dp = atom1.p[i] - atom2.p[i];
-                    Vec3 f = -bond.K * (1 - bond.L0 / dp.mag()) * dp;
-                    atom1.f[i] += f;
-                    atom2.f[i] -= f;
-                    accumulated_forces_bond += f.mag();
-                }
+            auto &atom1 = molecule.atoms[bond.a1];
+            auto &atom2 = molecule.atoms[bond.a2];
+            Vec3 dp = atom1.p[i] - atom2.p[i];
+            Vec3 f = -bond.K * (1 - bond.L0 / dp.mag()) * dp;
+            atom1.f[i] += f;
+            atom2.f[i] -= f;
+            accumulated_forces_bond += f.mag();
         }
+}
 
 // Iterates over all angles in molecules and updates forces on atoms correpondingly
 void UpdateAngleForces(System &sys)
@@ -320,9 +318,9 @@ void UpdateAngleForces(System &sys)
             Vec3 f1 = Ta * (angle.K * (phi - angle.Phi0) / norm_d21);
             Vec3 f3 = Tc * (angle.K * (phi - angle.Phi0) / norm_d23);
 
-            atom1.f[i] += f1; 
-            atom2.f[i] -= f1 + f3; 
-            atom3.f[i] += f3; 
+            atom1.f[i] += f1;
+            atom2.f[i] -= f1 + f3;
+            atom3.f[i] += f3;
 
             accumulated_forces_angle += f1.mag() + f3.mag();
         }
@@ -334,33 +332,54 @@ void UpdateNonBondedForces(System &sys)
     /* nonbonded forces: only a force between atoms in different molecules
        The total non-bonded forces come from Lennard Jones (LJ) and coulomb interactions
        U = ep[(sigma/r)^12-(sigma/r)^6] + C*q1*q2/r */
-    for (size_t i{}; i < sys.molecules.size(); i++)
-        for (auto &j :sys.molecules.neighbours[i]) // iterate over all neighbours of molecule i
-            for (auto &atom1 : sys.molecules.atoms) // to check 
-                for (auto &atom2 : sys.molecules.atoms) // to check 
-                {                                          // iterate over all pairs of atoms,
-                                                           // similar as well as dissimilar
-                    double ep = sqrt(atom1.ep * atom2.ep); // ep = sqrt(ep1*ep2)
-                    double sigma2 = pow(0.5 * (atom1.sigma + atom2.sigma),
-                                        2); // sigma = (sigma1+sigma2)/2
-                    double KC = 80 * 0.7;   // Coulomb prefactor
-                    double q = KC * atom1.charge * atom2.charge;
+    // Delcarations to keep stuff private
+    double ep{};     // ep = sqrt(ep1*ep2)
+    double sigma2{}; // sigma = (sigma1+sigma2)/2
+    double KC{};     // Coulomb prefactor
+    double q{};
 
-                    Vec3 dp = atom1.p[i] - atom2.p[j];
-                    double r2 = dp.mag2();
-                    double r = sqrt(r2);
+    Vec3 dp = {0., 0., 0.};
+    double r2 = {};
+    double r = {};
 
-                    double sir =
+    double sir{}; // crossection**2 times inverse squared distance
+    double sir3{};
+    Vec3 f = {0.,0.,0.}; // LJ + Coulomb forces
+
+#pragma omp simd reduction(+ : accumulated_forces_non_bond) private(ep, sigma2, KC, q, r2, r, sir, sir3) // SIMD pragma to parallelize the loop
+    for (size_t i = 0; i < sys.molecules.size(); i++)
+    {
+        for (auto &j : sys.molecules.neighbours[i])
+        { // iterate over all neighbours of molecule i
+            for (auto &atom1 : sys.molecules.atoms)
+            {                                           // to check
+                for (auto &atom2 : sys.molecules.atoms) // to check
+                {                                       // iterate over all pairs of atoms,
+                                                        // similar as well as dissimilar
+                    ep = sqrt(atom1.ep * atom2.ep);     // ep = sqrt(ep1*ep2)
+                    sigma2 = pow(0.5 * (atom1.sigma + atom2.sigma),
+                                 2); // sigma = (sigma1+sigma2)/2
+                    KC = 80 * 0.7;   // Coulomb prefactor
+                    q = KC * atom1.charge * atom2.charge;
+
+                    dp = atom1.p[i] - atom2.p[j];
+                    r2 = dp.mag2();
+                    r = sqrt(r2);
+
+                    sir =
                         sigma2 / r2; // crossection**2 times inverse squared distance
-                    double sir3 = sir * sir * sir;
-                    Vec3 f = (ep * (12 * sir3 * sir3 - 6 * sir3) * sir + q / (r * r2)) *
-                             dp; // LJ + Coulomb forces
+                    sir3 = sir * sir * sir;
+                    f = (ep * (12 * sir3 * sir3 - 6 * sir3) * sir + q / (r * r2)) *
+                        dp; // LJ + Coulomb forces
 
                     atom1.f[i] += f;
                     atom2.f[j] -= f; // update both pairs, since the force is equal and
-                                  // opposite and pairs only exist in one neigbor list
+                                     // opposite and pairs only exist in one neigbor list
                     accumulated_forces_non_bond += f.mag();
                 }
+            }
+        }
+    }
 }
 
 // integrating the system for one time step using Leapfrog symplectic integration
@@ -371,8 +390,8 @@ void UpdateKDK(System &sys, Sim_Configuration &sc)
         for (size_t i{}; i < molecule.no_mol; i++)
         {
             atom.v[i] += sc.dt / atom.mass * atom.f[i]; // Update the velocities
-            atom.f[i] = {0, 0, 0};                  // set the forces zero to prepare for next potential calculation
-            atom.p[i] += sc.dt * atom.v[i];            // update position
+            atom.f[i] = {0, 0, 0};                      // set the forces zero to prepare for next potential calculation
+            atom.p[i] += sc.dt * atom.v[i];             // update position
         }
 
     sys.time += sc.dt; // update time
@@ -390,7 +409,6 @@ System MakeWater(size_t N_molecules)
     // initial velocity and force is set to zero for all the atoms by the constructor
     const double L0 = 0.09584;
     const double angle = 104.45 * deg2rad;
-
 
     // bonds beetween first H-O and second H-O respectively
     std::vector<Bond> waterbonds = {
@@ -421,7 +439,7 @@ System MakeWater(size_t N_molecules)
         Hatom1.p[i] = {P0.x + L0 * sin(angle / 2), P0.y + L0 * cos(angle / 2), P0.z};
         Hatom2.p[i] = {P0.x - L0 * sin(angle / 2), P0.y + L0 * cos(angle / 2), P0.z};
     }
-    Molecules molecules = Molecules(std::vector<Atoms>{Oatom, Hatom1, Hatom2} , waterbonds, waterangle, N_molecules);
+    Molecules molecules = Molecules(std::vector<Atoms>{Oatom, Hatom1, Hatom2}, waterbonds, waterangle, N_molecules);
     System sys{molecules};
     return sys;
 }

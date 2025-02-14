@@ -4,14 +4,14 @@ CXX := g++
 # Optimization flags are chosen as the last definition.
 # Comment out using "#" at the begining of the line or rearrange according to your needs.
 #
-# Fastest executable (-ffast-math removes checking for NaNs and other things)
-OPT=-O3 -ffast-math
-
 # Add profiling to code
 OPT=-O1 -pg
 
 # Faster compilation time
-OPT=-O3 -ffast-math -pg
+OPT=-O1
+
+# Fastest executable (-ffast-math removes checking for NaNs and other things)
+OPT=-O3 -ffast-math
 
 CXXFLAGS := $(OPT) -pg -Wall -march=native -g -std=c++17
 
@@ -39,5 +39,15 @@ exercise2: vec seq
 		./seq -no_mol $$i > data/seq_results$$i.txt; \
 		gprof -p -b ./seq gmon.out > data/seq_analysis_$$i.txt; \
 	done
+
+exercise3: clean vec seq 
+	for i in 10 100 1000; do \
+		echo "Running for $$i"; \
+		./vec -no_mol $$i > data/vec_results$$i.txt; \
+		gprof -p -b ./vec gmon.out > data/vec_analysis_$$i.txt; \
+		./seq -no_mol $$i > data/seq_results$$i.txt; \
+		gprof -p -b ./seq gmon.out > data/seq_analysis_$$i.txt; \
+	done
+	
 clean:
 	rm -fr seq vec
