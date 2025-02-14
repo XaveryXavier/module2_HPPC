@@ -216,13 +216,15 @@ public:
 // short timesteps, it takes many steps to go from being e.g. 20th closest to 2nd closest; only needs infrequent updating
 void BuildNeighborList(System &sys)
 {
-    std::vector<double> distances2(sys.molecules.size()); // array of distances to other molecules
+    double distances2[sys.molecules.size()]; // array of distances to other molecules
     std::vector<size_t> index(sys.molecules.size());      // index array used for argsort
-    for (size_t i{}; i < sys.molecules.size(); i++)
+    size_t target_num{};
+    #pragma omp simd private(target_num) aligned(distances2 : 64) // SIMD pragma to parallelize the loop
+    for (size_t i = 0; i < sys.molecules.size(); i++)
     {                                        // For each molecule, build the neighbour list
         sys.molecules.neighbours[i].clear(); // empty neighbour list of molecule i
-
-        for (size_t j{}; j < sys.molecules.size(); j++)
+        
+        for (size_t j = 0; j < sys.molecules.size(); j++)
         {
             Vec3 dp = sys.molecules.atoms[0].p[i] - sys.molecules.atoms[0].p[j];
             distances2[j] = dp.mag2();
@@ -231,7 +233,7 @@ void BuildNeighborList(System &sys)
         distances2[i] = 1e99; // exclude own molecule from neighbour list
 
         // We want at most nClosest neighbors, but no more than number of molecules.
-        size_t target_num = std::min(nClosest, sys.molecules.size() - 1);
+        target_num = std::min(nClosest, sys.molecules.size() - 1);
         sys.molecules.neighbours[i].reserve(target_num); // reserve space for at least target_num indices
 
         // Lambda function to compare distances with indices as the keys to sort
@@ -285,7 +287,8 @@ void UpdateAngleForces(System &sys)
 {
     Molecules &molecule = sys.molecules;
     for (auto &angle : molecule.angles)
-        for (size_t i{}; i < molecule.no_mol; i++)
+    #pragma omp simd reduction(+ : accumulated_forces_angle) // SIMD pragma to parallelize the loop
+        for (size_t i = 0; i < molecule.no_mol; i++)
         {
             //====  angle forces  (H--O---H bonds) U_angle = 0.5*k_a(phi-phi_0)^2
             // f_H1 = K(phi-ph0)/|H1O|*Ta
@@ -333,9 +336,9 @@ void UpdateNonBondedForces(System &sys)
        The total non-bonded forces come from Lennard Jones (LJ) and coulomb interactions
        U = ep[(sigma/r)^12-(sigma/r)^6] + C*q1*q2/r */
     // Delcarations to keep stuff private
-    double ep{};     // ep = sqrt(ep1*ep2)
-    double sigma2{}; // sigma = (sigma1+sigma2)/2
-    double KC{};     // Coulomb prefactor
+    double ep{};         // ep = sqrt(ep1*ep2)
+    double sigma2{};     // sigma = (sigma1+sigma2)/2
+    double KC{80 * 0.7}; // Coulomb prefactor
     double q{};
 
     Vec3 dp = {0., 0., 0.};
@@ -344,43 +347,43 @@ void UpdateNonBondedForces(System &sys)
 
     double sir{}; // crossection**2 times inverse squared distance
     double sir3{};
-    Vec3 f = {0.,0.,0.}; // LJ + Coulomb forces
+    Vec3 f = {0., 0., 0.}; // LJ + Coulomb forces
 
-#pragma omp simd reduction(+ : accumulated_forces_non_bond) private(ep, sigma2, KC, q, r2, r, sir, sir3) // SIMD pragma to parallelize the loop
+    #pragma omp simd reduction(+ : accumulated_forces_non_bond) private(ep, sigma2, KC, q, r2, r, sir, sir3) // SIMD pragma to parallelize the loop
     for (size_t i = 0; i < sys.molecules.size(); i++)
     {
-        for (auto &j : sys.molecules.neighbours[i])
-        { // iterate over all neighbours of molecule i
-            for (auto &atom1 : sys.molecules.atoms)
-            {                                           // to check
-                for (auto &atom2 : sys.molecules.atoms) // to check
-                {                                       // iterate over all pairs of atoms,
-                                                        // similar as well as dissimilar
-                    ep = sqrt(atom1.ep * atom2.ep);     // ep = sqrt(ep1*ep2)
-                    sigma2 = pow(0.5 * (atom1.sigma + atom2.sigma),
-                                 2); // sigma = (sigma1+sigma2)/2
-                    KC = 80 * 0.7;   // Coulomb prefactor
-                    q = KC * atom1.charge * atom2.charge;
+            for (auto &j : sys.molecules.neighbours[i])
+            { // iterate over all neighbours of molecule i
+                for (auto &atom1 : sys.molecules.atoms)
+                {
+                    for (auto &atom2 : sys.molecules.atoms) // iterate over all pairs of atoms,
+                    {   
+                        ep = sqrt(atom1.ep * atom2.ep);     // ep = sqrt(ep1*ep2)
+                        sigma2 = pow(0.5 * (atom1.sigma + atom2.sigma),
+                                     2); // sigma = (sigma1+sigma2)/2
+                        KC = 80 * 0.7;   // Coulomb prefactor
+                        q = KC * atom1.charge * atom2.charge;
 
-                    dp = atom1.p[i] - atom2.p[j];
-                    r2 = dp.mag2();
-                    r = sqrt(r2);
+                        dp = atom1.p[i] - atom2.p[j];
+                        r2 = dp.mag2();
+                        r = sqrt(r2);
 
-                    sir =
-                        sigma2 / r2; // crossection**2 times inverse squared distance
-                    sir3 = sir * sir * sir;
-                    f = (ep * (12 * sir3 * sir3 - 6 * sir3) * sir + q / (r * r2)) *
-                        dp; // LJ + Coulomb forces
+                        sir =
+                            sigma2 / r2; // crossection**2 times inverse squared distance
+                        sir3 = sir * sir * sir;
+                        f = (ep * (12 * sir3 * sir3 - 6 * sir3) * sir + q / (r * r2)) *
+                            dp; // LJ + Coulomb forces
 
-                    atom1.f[i] += f;
-                    atom2.f[j] -= f; // update both pairs, since the force is equal and
-                                     // opposite and pairs only exist in one neigbor list
-                    accumulated_forces_non_bond += f.mag();
+                        atom1.f[i] += f;
+                        atom2.f[j] -= f; // update both pairs, since the force is equal and
+                                         // opposite and pairs only exist in one neigbor list
+                        accumulated_forces_non_bond += f.mag();
+                        
+                    }
                 }
             }
         }
     }
-}
 
 // integrating the system for one time step using Leapfrog symplectic integration
 void UpdateKDK(System &sys, Sim_Configuration &sc)
