@@ -269,8 +269,10 @@ void BuildNeighborList(System &sys)
 void UpdateBondForces(System &sys)
 {
     Molecules &molecule = sys.molecules;
-    for (auto &bond : molecule.bonds)
-        for (size_t i{}; i < molecule.no_mol; i++)
+    double appox, appoy, appoz, appo2x, appo2y, appo2z = 0;
+    for (auto &bond : molecule.bonds){
+    #pragma omp simd reduction(+ : accumulated_forces_bond) // SIMD pragma to parallelize the loop
+        for (size_t i = 0 ; i < molecule.no_mol; i++)
         {
             auto &atom1 = molecule.atoms[bond.a1];
             auto &atom2 = molecule.atoms[bond.a2];
@@ -280,14 +282,18 @@ void UpdateBondForces(System &sys)
             atom2.f[i] -= f;
             accumulated_forces_bond += f.mag();
         }
+    }
 }
 
 // Iterates over all angles in molecules and updates forces on atoms correpondingly
 void UpdateAngleForces(System &sys)
 {
     Molecules &molecule = sys.molecules;
-    for (auto &angle : molecule.angles)
-    #pragma omp simd reduction(+ : accumulated_forces_angle) // SIMD pragma to parallelize the loop
+    double norm_d21 ;
+    double norm_d23 ;
+    double phi; 
+     for (auto &angle : molecule.angles)
+#pragma omp simd reduction(+ : accumulated_forces_angle) private(norm_d21, norm_d23, phi) // SIMD pragma to parallelize the loop
         for (size_t i = 0; i < molecule.no_mol; i++)
         {
             //====  angle forces  (H--O---H bonds) U_angle = 0.5*k_a(phi-phi_0)^2
@@ -305,9 +311,9 @@ void UpdateAngleForces(System &sys)
             Vec3 d23 = atom2.p[i] - atom3.p[i];
 
             // phi = d21 dot d23 / |d21| |d23|
-            double norm_d21 = d21.mag();
-            double norm_d23 = d23.mag();
-            double phi = acos(dot(d21, d23) / (norm_d21 * norm_d23));
+            norm_d21 = d21.mag();
+            norm_d23 = d23.mag();
+            phi = acos(dot(d21, d23) / (norm_d21 * norm_d23));
 
             // d21 cross (d21 cross d23)
             Vec3 c21_23 = cross(d21, d23);
@@ -349,48 +355,64 @@ void UpdateNonBondedForces(System &sys)
     double sir3{};
     Vec3 f = {0., 0., 0.}; // LJ + Coulomb forces
 
-    #pragma omp simd reduction(+ : accumulated_forces_non_bond) private(ep, sigma2, KC, q, r2, r, sir, sir3) // SIMD pragma to parallelize the loop
-    for (size_t i = 0; i < sys.molecules.size(); i++)
+    //Stupid appo
+    double appox, appoy, appoz, appo2x, appo2y, appo2z = 0;
+
+    for (auto &atom1 : sys.molecules.atoms)
     {
-            for (auto &j : sys.molecules.neighbours[i])
-            { // iterate over all neighbours of molecule i
-                for (auto &atom1 : sys.molecules.atoms)
+        for (auto &atom2 : sys.molecules.atoms)
+        {
+#pragma omp simd reduction(+ : accumulated_forces_non_bond) // SIMD pragma to parallelize the loop
+            for (size_t i = 0; i < sys.molecules.size(); i++)
+            {
+                appox = 0;
+                appoy = 0;
+                appoz = 0;
+                for (auto &j : sys.molecules.neighbours[i])
                 {
-                    for (auto &atom2 : sys.molecules.atoms) // iterate over all pairs of atoms,
-                    {   
-                        ep = sqrt(atom1.ep * atom2.ep);     // ep = sqrt(ep1*ep2)
-                        sigma2 = pow(0.5 * (atom1.sigma + atom2.sigma),
-                                     2); // sigma = (sigma1+sigma2)/2
-                        KC = 80 * 0.7;   // Coulomb prefactor
-                        q = KC * atom1.charge * atom2.charge;
+                    ep = sqrt(atom1.ep * atom2.ep);                     // ep = sqrt(ep1*ep2)
+                    sigma2 = pow(0.5 * (atom1.sigma + atom2.sigma), 2); // sigma = (sigma1+sigma2)/2
+                    q = KC * atom1.charge * atom2.charge;
+                    dp = atom1.p[i] - atom2.p[j];
+                    r2 = dp.mag2();
+                    r = sqrt(r2);
 
-                        dp = atom1.p[i] - atom2.p[j];
-                        r2 = dp.mag2();
-                        r = sqrt(r2);
+                    sir = sigma2 / r2; // crossection**2 times inverse squared distance
+                    sir3 = sir * sir * sir;
+                    f = (ep * (12 * sir3 * sir3 - 6 * sir3) * sir + q / (r * r2)) * dp; // LJ + Coulomb forces
 
-                        sir =
-                            sigma2 / r2; // crossection**2 times inverse squared distance
-                        sir3 = sir * sir * sir;
-                        f = (ep * (12 * sir3 * sir3 - 6 * sir3) * sir + q / (r * r2)) *
-                            dp; // LJ + Coulomb forces
-
-                        atom1.f[i] += f;
-                        atom2.f[j] -= f; // update both pairs, since the force is equal and
-                                         // opposite and pairs only exist in one neigbor list
-                        accumulated_forces_non_bond += f.mag();
-                        
+                    // silly for to check
+                    appo2x = 0;
+                    appo2y = 0;
+                    appo2z = 0;
+#pragma omp simd reduction(+ : appox, appoy, appoz, appo2x, appo2y, appo2z) // SIMD pragma to parallelize the loop
+                    for (size_t k = 0; k < 1; k++)
+                    {
+                        appox += f.x;
+                        appoy += f.y;
+                        appoz += f.z;
+                        appo2x += f.x;
+                        appo2y += f.y;
+                        appo2z += f.z;
                     }
+                    atom2.f[j] -= {appo2x, appo2y, appo2z}; // update both pairs, since the force is equal and opposite and pairs only exist in one neigbor list
+
+                    accumulated_forces_non_bond += f.mag();
                 }
+
+                atom1.f[i] += {appox, appoy, appoz};
             }
         }
     }
+
+}
 
 // integrating the system for one time step using Leapfrog symplectic integration
 void UpdateKDK(System &sys, Sim_Configuration &sc)
 {
     Molecules &molecule = sys.molecules;
     for (auto &atom : molecule.atoms)
-        for (size_t i{}; i < molecule.no_mol; i++)
+        for (size_t i = 0; i < molecule.no_mol; i++)
         {
             atom.v[i] += sc.dt / atom.mass * atom.f[i]; // Update the velocities
             atom.f[i] = {0, 0, 0};                      // set the forces zero to prepare for next potential calculation

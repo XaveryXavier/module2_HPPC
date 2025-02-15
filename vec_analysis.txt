@@ -3,13 +3,13 @@ Flat profile:
 Each sample counts as 0.01 seconds.
   %   cumulative   self              self     total           
  time   seconds   seconds    calls  us/call  us/call  name    
- 92.31      1.08     1.08    10000   108.00   108.00  UpdateNonBondedForces(System&)
-  4.27      1.13     0.05    10000     5.00     5.00  UpdateAngleForces(System&)
-  3.42      1.17     0.04    10000     4.00     4.00  UpdateBondForces(System&)
-  0.00      1.17     0.00   304748     0.00     0.00  void std::__adjust_heap<__gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, std::allocator<unsigned long> > >, long, unsigned long, __gnu_cxx::__ops::_Iter_comp_iter<BuildNeighborList(System&)::{lambda(unsigned long&, unsigned long&)#1}> >(__gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, std::allocator<unsigned long> > >, long, long, unsigned long, __gnu_cxx::__ops::_Iter_comp_iter<BuildNeighborList(System&)::{lambda(unsigned long&, unsigned long&)#1}>)
-  0.00      1.17     0.00    10000     0.00     0.00  UpdateKDK(System&, Sim_Configuration&)
+ 86.32      1.01     1.01    10000   101.00   101.00  UpdateNonBondedForces(System&)
+  5.13      1.07     0.06    10000     6.00     6.00  UpdateAngleForces(System&)
+  3.42      1.11     0.04      100   400.00   600.00  BuildNeighborList(System&)
+  2.56      1.14     0.03    10000     3.00     3.00  UpdateBondForces(System&)
+  1.71      1.16     0.02   304748     0.07     0.07  void std::__adjust_heap<__gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, std::allocator<unsigned long> > >, long, unsigned long, __gnu_cxx::__ops::_Iter_comp_iter<BuildNeighborList(System&)::{lambda(unsigned long&, unsigned long&)#1}> >(__gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, std::allocator<unsigned long> > >, long, long, unsigned long, __gnu_cxx::__ops::_Iter_comp_iter<BuildNeighborList(System&)::{lambda(unsigned long&, unsigned long&)#1}>)
+  0.85      1.17     0.01    10000     1.00     1.00  UpdateKDK(System&, Sim_Configuration&)
   0.00      1.17     0.00      101     0.00     0.00  WriteOutput(System&, std::basic_ofstream<char, std::char_traits<char> >&)
-  0.00      1.17     0.00      100     0.00     0.00  BuildNeighborList(System&)
   0.00      1.17     0.00        1     0.00     0.00  MakeWater(unsigned long)
   0.00      1.17     0.00        1     0.00     0.00  Sim_Configuration::Sim_Configuration(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >)
   0.00      1.17     0.00        1     0.00     0.00  Molecules::~Molecules()

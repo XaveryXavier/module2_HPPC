@@ -1,0 +1,1280 @@
+Water_vectorised.cpp:22:42: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:22:42: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:274:13: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:293:13: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:362:9: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:385:9: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:385:9: optimized: loop vectorized using 16 byte vectors
+Water_vectorised.cpp:56:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:413:30: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:413:30: optimized:  loop versioned for vectorization because of possible aliasing
+Water_vectorised.cpp:413:30: optimized: loop vectorized using 16 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:416:23: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:416:23: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:578:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:439:49: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:439:49: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:443:62: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:126:11: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:126:11: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:126:11: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:463:21: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/vector.tcc:502:30: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:227:30: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:227:30: optimized:  loop versioned for vectorization because of possible aliasing
+Water_vectorised.cpp:227:30: optimized: loop vectorized using 16 byte vectors
+/usr/include/c++/11/bits/vector.tcc:95:27: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:22:42: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:22:42: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:274:13: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:293:13: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:362:9: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:385:9: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:385:9: optimized: loop vectorized using 16 byte vectors
+Water_vectorised.cpp:56:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:413:30: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:413:30: optimized:  loop versioned for vectorization because of possible aliasing
+Water_vectorised.cpp:413:30: optimized: loop vectorized using 16 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:416:23: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:416:23: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:578:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:439:49: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:439:49: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:443:62: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:126:11: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:126:11: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:126:11: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:463:21: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/vector.tcc:502:30: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:227:30: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:227:30: optimized:  loop versioned for vectorization because of possible aliasing
+Water_vectorised.cpp:227:30: optimized: loop vectorized using 16 byte vectors
+/usr/include/c++/11/bits/vector.tcc:95:27: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:22:42: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:22:42: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:275:31: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:275:31: optimized:  loop versioned for vectorization because of possible aliasing
+Water_vectorised.cpp:275:31: optimized: loop vectorized using 16 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:413:30: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:413:30: optimized:  loop versioned for vectorization because of possible aliasing
+Water_vectorised.cpp:413:30: optimized: loop vectorized using 16 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:416:23: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:416:23: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:578:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:439:49: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:439:49: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:443:62: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:126:11: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:126:11: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:126:11: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:463:21: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/vector.tcc:502:30: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:227:30: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:227:30: optimized:  loop versioned for vectorization because of possible aliasing
+Water_vectorised.cpp:227:30: optimized: loop vectorized using 16 byte vectors
+/usr/include/c++/11/bits/vector.tcc:95:27: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:22:42: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:22:42: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:274:13: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:293:13: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:362:9: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:385:9: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:385:9: optimized: loop vectorized using 16 byte vectors
+Water_vectorised.cpp:56:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:413:30: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:413:30: optimized:  loop versioned for vectorization because of possible aliasing
+Water_vectorised.cpp:413:30: optimized: loop vectorized using 16 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:416:23: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:416:23: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:578:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:439:49: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:439:49: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:443:62: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:126:11: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:126:11: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:126:11: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:463:21: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/vector.tcc:502:30: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:227:30: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:227:30: optimized:  loop versioned for vectorization because of possible aliasing
+Water_vectorised.cpp:227:30: optimized: loop vectorized using 16 byte vectors
+/usr/include/c++/11/bits/vector.tcc:95:27: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:22:42: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:22:42: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:275:31: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:275:31: optimized:  loop versioned for vectorization because of possible aliasing
+Water_vectorised.cpp:275:31: optimized: loop vectorized using 16 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:413:30: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:413:30: optimized:  loop versioned for vectorization because of possible aliasing
+Water_vectorised.cpp:413:30: optimized: loop vectorized using 16 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:416:23: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:416:23: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:578:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:439:49: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:439:49: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:443:62: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:126:11: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:126:11: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:126:11: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:463:21: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/vector.tcc:502:30: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:227:30: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:227:30: optimized:  loop versioned for vectorization because of possible aliasing
+Water_vectorised.cpp:227:30: optimized: loop vectorized using 16 byte vectors
+/usr/include/c++/11/bits/vector.tcc:95:27: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:22:42: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:22:42: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:274:13: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:293:13: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:362:9: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:385:9: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:385:9: optimized: loop vectorized using 16 byte vectors
+Water_vectorised.cpp:56:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:413:30: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:413:30: optimized:  loop versioned for vectorization because of possible aliasing
+Water_vectorised.cpp:413:30: optimized: loop vectorized using 16 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:416:23: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:416:23: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:578:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:439:49: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:439:49: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:443:62: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:126:11: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:126:11: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:126:11: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:424:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:463:21: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/vector.tcc:502:30: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:227:30: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:227:30: optimized:  loop versioned for vectorization because of possible aliasing
+Water_vectorised.cpp:227:30: optimized: loop vectorized using 16 byte vectors
+/usr/include/c++/11/bits/vector.tcc:95:27: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:22:42: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:22:42: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:274:13: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:293:13: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:362:9: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:385:9: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:385:9: optimized: loop vectorized using 16 byte vectors
+Water_vectorised.cpp:56:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:412:30: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:412:30: optimized:  loop versioned for vectorization because of possible aliasing
+Water_vectorised.cpp:412:30: optimized: loop vectorized using 16 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:415:23: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:415:23: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:578:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:438:49: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:438:49: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:442:62: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:126:11: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:126:11: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:126:11: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:462:21: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/vector.tcc:502:30: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:227:30: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:227:30: optimized:  loop versioned for vectorization because of possible aliasing
+Water_vectorised.cpp:227:30: optimized: loop vectorized using 16 byte vectors
+/usr/include/c++/11/bits/vector.tcc:95:27: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:22:42: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:22:42: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:274:13: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:293:13: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:362:9: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:385:9: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:385:9: optimized: loop vectorized using 16 byte vectors
+Water_vectorised.cpp:56:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:412:30: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:412:30: optimized:  loop versioned for vectorization because of possible aliasing
+Water_vectorised.cpp:412:30: optimized: loop vectorized using 16 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:415:23: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:415:23: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:578:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:438:49: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:438:49: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:442:62: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:126:11: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:126:11: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:126:11: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:462:21: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/vector.tcc:502:30: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:227:30: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:227:30: optimized:  loop versioned for vectorization because of possible aliasing
+Water_vectorised.cpp:227:30: optimized: loop vectorized using 16 byte vectors
+/usr/include/c++/11/bits/vector.tcc:95:27: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:22:42: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:22:42: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:274:13: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:293:13: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:362:9: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:385:9: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:385:9: optimized: loop vectorized using 16 byte vectors
+Water_vectorised.cpp:56:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:412:30: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:412:30: optimized:  loop versioned for vectorization because of possible aliasing
+Water_vectorised.cpp:412:30: optimized: loop vectorized using 16 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:415:23: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:415:23: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:578:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:438:49: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:438:49: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:442:62: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:126:11: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:126:11: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:126:11: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:462:21: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/vector.tcc:502:30: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:227:30: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:227:30: optimized:  loop versioned for vectorization because of possible aliasing
+Water_vectorised.cpp:227:30: optimized: loop vectorized using 16 byte vectors
+/usr/include/c++/11/bits/vector.tcc:95:27: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:22:42: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:22:42: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:274:13: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:293:13: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:362:9: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:385:9: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:385:9: optimized: loop vectorized using 16 byte vectors
+Water_vectorised.cpp:56:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:412:30: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:412:30: optimized:  loop versioned for vectorization because of possible aliasing
+Water_vectorised.cpp:412:30: optimized: loop vectorized using 16 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:415:23: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:415:23: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:578:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:438:49: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:438:49: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:442:62: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:126:11: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:126:11: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:126:11: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:462:21: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/vector.tcc:502:30: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:227:30: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:227:30: optimized:  loop versioned for vectorization because of possible aliasing
+Water_vectorised.cpp:227:30: optimized: loop vectorized using 16 byte vectors
+/usr/include/c++/11/bits/vector.tcc:95:27: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:22:42: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:22:42: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:274:13: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:293:13: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:362:9: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:385:9: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:385:9: optimized: loop vectorized using 16 byte vectors
+Water_vectorised.cpp:56:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:412:30: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:412:30: optimized:  loop versioned for vectorization because of possible aliasing
+Water_vectorised.cpp:412:30: optimized: loop vectorized using 16 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:415:23: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:415:23: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:578:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:438:49: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:438:49: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:442:62: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:126:11: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:126:11: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:126:11: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:462:21: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/vector.tcc:502:30: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:227:30: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:227:30: optimized:  loop versioned for vectorization because of possible aliasing
+Water_vectorised.cpp:227:30: optimized: loop vectorized using 16 byte vectors
+/usr/include/c++/11/bits/vector.tcc:95:27: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:22:42: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:22:42: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:274:13: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:293:13: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:362:9: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:385:9: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:385:9: optimized: loop vectorized using 16 byte vectors
+Water_vectorised.cpp:56:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:412:30: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:412:30: optimized:  loop versioned for vectorization because of possible aliasing
+Water_vectorised.cpp:412:30: optimized: loop vectorized using 16 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:415:23: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:49:11: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:415:23: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:578:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_uninitialized.h:236:19: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:438:49: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:438:49: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:442:62: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:126:11: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:126:11: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:126:11: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:423:8: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:462:21: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:114:7: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/stl_vector.h:361:25: optimized: basic block part vectorized using 32 byte vectors
+/usr/include/c++/11/bits/vector.tcc:502:30: optimized: basic block part vectorized using 32 byte vectors
+Water_vectorised.cpp:227:30: optimized: loop vectorized using 32 byte vectors
+Water_vectorised.cpp:227:30: optimized:  loop versioned for vectorization because of possible aliasing
+Water_vectorised.cpp:227:30: optimized: loop vectorized using 16 byte vectors
+/usr/include/c++/11/bits/vector.tcc:95:27: optimized: basic block part vectorized using 32 byte vectors
