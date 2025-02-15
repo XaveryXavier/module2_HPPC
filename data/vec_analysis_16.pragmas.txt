@@ -3,16 +3,16 @@ Flat profile:
 Each sample counts as 0.01 seconds.
   %   cumulative   self              self     total           
  time   seconds   seconds    calls  us/call  us/call  name    
- 89.99     14.65    14.65  1000000    14.65    14.65  UpdateNonBondedForces(System&)
-  4.85     15.44     0.79  1000000     0.79     0.79  UpdateAngleForces(System&)
-  3.26     15.97     0.53  1000000     0.53     0.53  UpdateBondForces(System&)
-  1.29     16.18     0.21  1000000     0.21     0.21  UpdateKDK(System&, Sim_Configuration&)
-  0.18     16.21     0.03    10000     3.00     5.00  BuildNeighborList(System&)
-  0.18     16.24     0.03                             main
-  0.12     16.26     0.02  2478645     0.01     0.01  void std::__adjust_heap<__gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, std::allocator<unsigned long> > >, long, unsigned long, __gnu_cxx::__ops::_Iter_comp_iter<BuildNeighborList(System&)::{lambda(unsigned long&, unsigned long&)#1}> >(__gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, std::allocator<unsigned long> > >, long, long, unsigned long, __gnu_cxx::__ops::_Iter_comp_iter<BuildNeighborList(System&)::{lambda(unsigned long&, unsigned long&)#1}>)
-  0.12     16.28     0.02    10001     2.00     2.00  WriteOutput(System&, std::basic_ofstream<char, std::char_traits<char> >&)
-  0.00     16.28     0.00        1     0.00     0.00  MakeWater(unsigned long)
-  0.00     16.28     0.00        1     0.00     0.00  Sim_Configuration::Sim_Configuration(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >)
-  0.00     16.28     0.00        1     0.00     0.00  Molecules::~Molecules()
-  0.00     16.28     0.00        1     0.00     0.00  std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::vector<char**, void>(char**, char**, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&)
-  0.00     16.28     0.00        1     0.00     0.00  std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~vector()
+ 91.45     15.72    15.72  1000000    15.72    15.72  UpdateNonBondedForces(System&)
+  4.13     16.43     0.71  1000000     0.71     0.71  UpdateAngleForces(System&)
+  3.03     16.95     0.52  1000000     0.52     0.52  UpdateBondForces(System&)
+  0.87     17.10     0.15  1000000     0.15     0.15  UpdateKDK(System&, Sim_Configuration&)
+  0.29     17.15     0.05    10000     5.00     8.00  BuildNeighborList(System&)
+  0.17     17.18     0.03  2413266     0.01     0.01  void std::__adjust_heap<__gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, std::allocator<unsigned long> > >, long, unsigned long, __gnu_cxx::__ops::_Iter_comp_iter<BuildNeighborList(System&)::{lambda(unsigned long&, unsigned long&)#1}> >(__gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, std::allocator<unsigned long> > >, long, long, unsigned long, __gnu_cxx::__ops::_Iter_comp_iter<BuildNeighborList(System&)::{lambda(unsigned long&, unsigned long&)#1}>)
+  0.06     17.19     0.01                             main
+  0.00     17.19     0.00    10001     0.00     0.00  WriteOutput(System&, std::basic_ofstream<char, std::char_traits<char> >&)
+  0.00     17.19     0.00        1     0.00     0.00  MakeWater(unsigned long)
+  0.00     17.19     0.00        1     0.00     0.00  Sim_Configuration::Sim_Configuration(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >)
+  0.00     17.19     0.00        1     0.00     0.00  Molecules::~Molecules()
+  0.00     17.19     0.00        1     0.00     0.00  std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::vector<char**, void>(char**, char**, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&)
+  0.00     17.19     0.00        1     0.00     0.00  std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~vector()

@@ -48,14 +48,33 @@ exercise3: clean vec seq
 		./vec -no_mol $$i -steps $$j > data/vec_results$$i.nopragmas.txt; \
 		gprof -p -b ./vec gmon.out > data/vec_analysis_$$i.nopragmas.txt; \
 		./seq -no_mol $$i -steps $$j > data/seq_results$$i.nopragmas.txt; \
-		done
+	done
 	rm -fr seq vec
-	for k in 1; do \
+	$(CXX) Water_vectorised.cpp $(CXXFLAGS) -fopenmp-simd -o vec
+	for k in 1 2 3 4; do \
 		i=$$(echo 16 100 1000 10000| cut -d' ' -f$$k); \
 		j=$$(echo 1000000 100000 10000 500| cut -d' ' -f$$k); \
+		./vec -no_mol $$i -steps $$j > data/vec_results$$i.pragmas.txt
 		echo "Running for i=$$i and steps=$$j and pragmas"; \
-		$(CXX) Water_vectorised.cpp $(CXXFLAGS) -fopenmp-simd -o vec;\
-		./vec -no_mol $$i -steps $$j > data/vec_results$$i.pragmas.txt; \
+		gprof -p -b ./vec gmon.out > data/vec_analysis_$$i.pragmas.txt; \
+	done
+
+look_for_pragmas: clean vec seq 
+	for k in 1 ; do \
+		i=$$(echo 16 100 1000 10000| cut -d' ' -f$$k); \
+		j=$$(echo 1000000 100000 10000 500| cut -d' ' -f$$k); \
+		echo "Running for i=$$i and steps=$$j and no pragmas"; \
+		./vec -no_mol $$i -steps $$j > data/vec_results$$i.nopragmas.txt; \
+		gprof -p -b ./vec gmon.out > data/vec_analysis_$$i.nopragmas.txt; \
+		./seq -no_mol $$i -steps $$j > data/seq_results$$i.nopragmas.txt; \
+		done
+		rm -fr seq vec
+	$(CXX) Water_vectorised.cpp $(CXXFLAGS) -fopenmp-simd -o vec
+	for k in 1 2 3 4; do \
+		i=$$(echo 16 100 1000 10000| cut -d' ' -f$$k); \
+		j=$$(echo 1000000 100000 10000 500| cut -d' ' -f$$k); \
+		./vec -no_mol $$i -steps $$j > data/vec_results$$i.pragmas.txt
+		echo "Running for i=$$i and steps=$$j and pragmas"; \
 		gprof -p -b ./vec gmon.out > data/vec_analysis_$$i.pragmas.txt; \
 	done
 	

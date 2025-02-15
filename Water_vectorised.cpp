@@ -369,7 +369,7 @@ void UpdateNonBondedForces(System &sys)
                 appox = 0;
                 appoy = 0;
                 appoz = 0;
-#pragma omp simd private(ep, sigma2, q, r2, r, sir, sir3, neighbour_index) // SIMD pragma to parallelize the loop
+#pragma omp simd private(ep, sigma2, q, r2, r, sir, sir3, neighbour_index , appox, appoy, appoz) // SIMD pragma to parallelize the loop
                 for (size_t j = 0; j < sys.molecules.neighbours[i].size(); ++j)
                 {
                     neighbour_index = sys.molecules.neighbours[i][j];
