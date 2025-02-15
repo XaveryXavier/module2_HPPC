@@ -11,9 +11,9 @@ OPT=-O1 -pg
 OPT=-O1
 
 # Fastest executable (-ffast-math removes checking for NaNs and other things)
-OPT=-O3 -ffast-math
+OPT=-O3 -ffast-math 
 
-CXXFLAGS := $(OPT) -pg -Wall -march=native -g -std=c++17
+CXXFLAGS := $(OPT) -pg -Wall -march=native -g -std=c++17 
 
 default: seq vec
 
@@ -21,7 +21,7 @@ seq: Water_sequential.cpp
 	$(CXX) Water_sequential.cpp $(CXXFLAGS) -o seq
 
 vec: Water_vectorised.cpp
-	$(CXX) Water_vectorised.cpp $(CXXFLAGS) -fopenmp-simd -o vec
+	$(CXX) Water_vectorised.cpp $(CXXFLAGS) -o vec
 
 profiler_vec: vec 
 	./vec
@@ -41,12 +41,16 @@ exercise2: vec seq
 	done
 
 exercise3: clean vec seq 
-	for i in 10 100 1000; do \
-		echo "Running for $$i"; \
-		./vec -no_mol $$i > data/vec_results$$i.txt; \
-		gprof -p -b ./vec gmon.out > data/vec_analysis_$$i.txt; \
-		./seq -no_mol $$i > data/seq_results$$i.txt; \
-		gprof -p -b ./seq gmon.out > data/seq_analysis_$$i.txt; \
+	for k in 1 2 3; do \
+		i=$$(echo 16 100 1000| cut -d' ' -f$$k); \
+		j=$$(echo 1000000 100000 10000| cut -d' ' -f$$k); \
+		echo "Running for i=$$i and steps=$$j"; \
+		./vec -no_mol $$i -steps $$j > data/vec_results$$i.nopragmas.txt; \
+		gprof -p -b ./vec gmon.out > data/vec_analysis_$$i.nopragmas.txt; \
+		rm -fr seq vec; \
+		$(CXX) Water_vectorised.cpp $(CXXFLAGS) -fopenmp-simd -o vec;\
+		./vec -no_mol $$i -steps $$j > data/vec_results$$i.pragmas.txt; \
+		gprof -p -b ./vec gmon.out > data/vec_analysis_$$i.pragmas.txt; \
 	done
 	
 clean:

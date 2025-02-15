@@ -216,14 +216,14 @@ public:
 // short timesteps, it takes many steps to go from being e.g. 20th closest to 2nd closest; only needs infrequent updating
 void BuildNeighborList(System &sys)
 {
-    double distances2[sys.molecules.size()]; // array of distances to other molecules
-    std::vector<size_t> index(sys.molecules.size());      // index array used for argsort
+    double distances2[sys.molecules.size()];         // array of distances to other molecules
+    std::vector<size_t> index(sys.molecules.size()); // index array used for argsort
     size_t target_num{};
-    #pragma omp simd private(target_num) aligned(distances2 : 64) // SIMD pragma to parallelize the loop
+#pragma omp simd private(target_num) aligned(distances2 : 64) // SIMD pragma to parallelize the loop
     for (size_t i = 0; i < sys.molecules.size(); i++)
     {                                        // For each molecule, build the neighbour list
         sys.molecules.neighbours[i].clear(); // empty neighbour list of molecule i
-        
+
         for (size_t j = 0; j < sys.molecules.size(); j++)
         {
             Vec3 dp = sys.molecules.atoms[0].p[i] - sys.molecules.atoms[0].p[j];
@@ -269,10 +269,10 @@ void BuildNeighborList(System &sys)
 void UpdateBondForces(System &sys)
 {
     Molecules &molecule = sys.molecules;
-    double appox, appoy, appoz, appo2x, appo2y, appo2z = 0;
-    for (auto &bond : molecule.bonds){
-    #pragma omp simd reduction(+ : accumulated_forces_bond) // SIMD pragma to parallelize the loop
-        for (size_t i = 0 ; i < molecule.no_mol; i++)
+    for (auto &bond : molecule.bonds)
+    {
+#pragma omp simd reduction(+ : accumulated_forces_bond) // SIMD pragma to parallelize the loop
+        for (size_t i = 0; i < molecule.no_mol; i++)
         {
             auto &atom1 = molecule.atoms[bond.a1];
             auto &atom2 = molecule.atoms[bond.a2];
@@ -289,10 +289,10 @@ void UpdateBondForces(System &sys)
 void UpdateAngleForces(System &sys)
 {
     Molecules &molecule = sys.molecules;
-    double norm_d21 ;
-    double norm_d23 ;
-    double phi; 
-     for (auto &angle : molecule.angles)
+    double norm_d21;
+    double norm_d23;
+    double phi;
+    for (auto &angle : molecule.angles)
 #pragma omp simd reduction(+ : accumulated_forces_angle) private(norm_d21, norm_d23, phi) // SIMD pragma to parallelize the loop
         for (size_t i = 0; i < molecule.no_mol; i++)
         {
@@ -355,8 +355,8 @@ void UpdateNonBondedForces(System &sys)
     double sir3{};
     Vec3 f = {0., 0., 0.}; // LJ + Coulomb forces
 
-    //Stupid appo
-    double appox, appoy, appoz, appo2x, appo2y, appo2z = 0;
+    // Stupid appo
+    double appox, appoy, appoz = 0;
 
     for (auto &atom1 : sys.molecules.atoms)
     {
@@ -380,22 +380,10 @@ void UpdateNonBondedForces(System &sys)
                     sir = sigma2 / r2; // crossection**2 times inverse squared distance
                     sir3 = sir * sir * sir;
                     f = (ep * (12 * sir3 * sir3 - 6 * sir3) * sir + q / (r * r2)) * dp; // LJ + Coulomb forces
-
-                    // silly for to check
-                    appo2x = 0;
-                    appo2y = 0;
-                    appo2z = 0;
-#pragma omp simd reduction(+ : appox, appoy, appoz, appo2x, appo2y, appo2z) // SIMD pragma to parallelize the loop
-                    for (size_t k = 0; k < 1; k++)
-                    {
-                        appox += f.x;
-                        appoy += f.y;
-                        appoz += f.z;
-                        appo2x += f.x;
-                        appo2y += f.y;
-                        appo2z += f.z;
-                    }
-                    atom2.f[j] -= {appo2x, appo2y, appo2z}; // update both pairs, since the force is equal and opposite and pairs only exist in one neigbor list
+                    appox += f.x;
+                    appoy += f.y;
+                    appoz += f.z;
+                    atom2.f[j] -= f; // update both pairs, since the force is equal and opposite and pairs only exist in one neigbor list
 
                     accumulated_forces_non_bond += f.mag();
                 }
@@ -404,7 +392,6 @@ void UpdateNonBondedForces(System &sys)
             }
         }
     }
-
 }
 
 // integrating the system for one time step using Leapfrog symplectic integration
