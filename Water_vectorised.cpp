@@ -357,23 +357,26 @@ void UpdateNonBondedForces(System &sys)
 
     // Stupid appo
     double appox, appoy, appoz = 0;
+    size_t neighbour_index = 0;
 
-    for (auto &atom1 : sys.molecules.atoms)
+        for (auto &atom1 : sys.molecules.atoms)
     {
         for (auto &atom2 : sys.molecules.atoms)
         {
-#pragma omp simd reduction(+ : accumulated_forces_non_bond) // SIMD pragma to parallelize the loop
+            #pragma omp simd reduction(+ : accumulated_forces_non_bond) // SIMD pragma to parallelize the loop
             for (size_t i = 0; i < sys.molecules.size(); i++)
             {
                 appox = 0;
                 appoy = 0;
                 appoz = 0;
-                for (auto &j : sys.molecules.neighbours[i])
+#pragma omp simd private(ep, sigma2, q, r2, r, sir, sir3, neighbour_index) // SIMD pragma to parallelize the loop
+                for (size_t j = 0; j < sys.molecules.neighbours[i].size(); ++j)
                 {
+                    neighbour_index = sys.molecules.neighbours[i][j];
                     ep = sqrt(atom1.ep * atom2.ep);                     // ep = sqrt(ep1*ep2)
                     sigma2 = pow(0.5 * (atom1.sigma + atom2.sigma), 2); // sigma = (sigma1+sigma2)/2
                     q = KC * atom1.charge * atom2.charge;
-                    dp = atom1.p[i] - atom2.p[j];
+                    dp = atom1.p[i] - atom2.p[neighbour_index];
                     r2 = dp.mag2();
                     r = sqrt(r2);
 
@@ -383,8 +386,7 @@ void UpdateNonBondedForces(System &sys)
                     appox += f.x;
                     appoy += f.y;
                     appoz += f.z;
-                    atom2.f[j] -= f; // update both pairs, since the force is equal and opposite and pairs only exist in one neigbor list
-
+                    atom2.f[neighbour_index] -= f; // update both pairs, since the force is equal and opposite and pairs only exist in one neigbor list
                     accumulated_forces_non_bond += f.mag();
                 }
 

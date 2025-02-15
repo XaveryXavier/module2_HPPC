@@ -1,0 +1,17 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+ 56.00      3.78     3.78      500     7.56     7.56  UpdateNonBondedForces(System&)
+ 28.30      5.69     1.91        5   382.00   498.00  BuildNeighborList(System&)
+  8.59      6.27     0.58 18535998     0.00     0.00  void std::__adjust_heap<__gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, std::allocator<unsigned long> > >, long, unsigned long, __gnu_cxx::__ops::_Iter_comp_iter<BuildNeighborList(System&)::{lambda(unsigned long&, unsigned long&)#1}> >(__gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, std::allocator<unsigned long> > >, long, long, unsigned long, __gnu_cxx::__ops::_Iter_comp_iter<BuildNeighborList(System&)::{lambda(unsigned long&, unsigned long&)#1}>)
+  3.56      6.51     0.24      500     0.48     0.48  UpdateAngleForces(System&)
+  2.52      6.68     0.17      500     0.34     0.34  UpdateBondForces(System&)
+  1.04      6.75     0.07      500     0.14     0.14  UpdateKDK(System&, Sim_Configuration&)
+  0.00      6.75     0.00        6     0.00     0.00  WriteOutput(System&, std::basic_ofstream<char, std::char_traits<char> >&)
+  0.00      6.75     0.00        1     0.00     0.00  MakeWater(unsigned long)
+  0.00      6.75     0.00        1     0.00     0.00  Sim_Configuration::Sim_Configuration(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >)
+  0.00      6.75     0.00        1     0.00     0.00  Molecules::~Molecules()
+  0.00      6.75     0.00        1     0.00     0.00  std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::vector<char**, void>(char**, char**, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&)
+  0.00      6.75     0.00        1     0.00     0.00  std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~vector()
