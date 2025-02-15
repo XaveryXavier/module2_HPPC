@@ -271,7 +271,7 @@ void UpdateBondForces(System &sys)
     Molecules &molecule = sys.molecules;
     for (auto &bond : molecule.bonds)
     {
-#pragma omp simd reduction(+ : accumulated_forces_bond) // SIMD pragma to parallelize the loop
+// #pragma omp simd reduction(+ : accumulated_forces_bond) // SIMD pragma to parallelize the loop
         for (size_t i = 0; i < molecule.no_mol; i++)
         {
             auto &atom1 = molecule.atoms[bond.a1];
@@ -293,7 +293,7 @@ void UpdateAngleForces(System &sys)
     double norm_d23;
     double phi;
     for (auto &angle : molecule.angles)
-#pragma omp simd reduction(+ : accumulated_forces_angle) private(norm_d21, norm_d23, phi) // SIMD pragma to parallelize the loop
+// #pragma omp simd reduction(+ : accumulated_forces_angle) private(norm_d21, norm_d23, phi) // SIMD pragma to parallelize the loop
         for (size_t i = 0; i < molecule.no_mol; i++)
         {
             //====  angle forces  (H--O---H bonds) U_angle = 0.5*k_a(phi-phi_0)^2
